@@ -7,20 +7,20 @@ const skills = [
   "SvelteKit",
   "TypeScript",
   "Express",
-  "Sql",
-  "MongoDB",
+  "Shadcn",
   "Tailwind",
-  "Vercel",
-  "Git",
-  "Gen-AI",
-  "Linux",
-  "Langchain",
+  "python",
   "fastapi",
+  "MongoDB",
+  "Mongoose",
+  "Sql",
+  "Langchain",
+  "Ubuntu",
 ];
 
 function About() {
   return (
-    <div className="max-w-[825px] mx-auto mt-16 flex gap-12">
+    <div className="max-w-[825px] sm:mx-auto mt-16 m-2 sm:flex space-y-4 gap-12">
       <div className=" w-[92%] bg-[#1E1E21] p-6 rounded-lg">
         <p className="text-xl font-bold">Skills</p>
         <div className="grid grid-cols-4  gap-2 mt-3">
@@ -45,13 +45,13 @@ function About() {
           <Link href="mailto:majharulislamruhit@gmail.com" target="_blank">
             <FaEnvelope />
           </Link>
-          <Link href="https://x.com/majharulislamruhit" target="_blank">
+          <Link href="https://x.com/MajharulRuhit" target="_blank">
             <FaTwitter />
           </Link>
         </div>
         <p className="text-[16px] mt-3">Email</p>
         <p className="text-[15px] mt-1">majharulislamruhit@gmail.com</p>
-        <p className="text-[16px] mt-3">Current Job</p>
+        <p className="text-[16px] mt-3">Previous Job</p>
         <p className="text-[15px] mt-1">Software Engineer</p>
       </div>
     </div>

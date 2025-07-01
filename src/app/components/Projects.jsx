@@ -15,21 +15,22 @@ const projects = [
     name: "ModOutFit",
     description:
       "Developed and maintained the ModOutfit.com eCommerce platform. ",
-    image: "/modout.png",
+    image: "/pn2.png",
     link: "https://modoutfit.com/",
   },
   {
     id: 3,
-    name: "Resume Editor",
-    description: "A resume editor tool where you can create your resume in...",
-    image: "/p1.png",
-    link: "https://resumeeditor.com/",
+    name: "Voice For Voiceless 24",
+    description:
+      "A digital newsroom and citizen journalism platform based in Dhaka.",
+    image: "/p3.png",
+    link: "http://voiceforvoiceless24.com/",
   },
 ];
 
 function Projects() {
   return (
-    <div className="max-w-[825px] mx-auto mt-12">
+    <div className="max-w-[825px] mx-auto mt-12 sm:p-0 p-2">
       <h1 className="text-2xl font-bold mb-8 text-white">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         {projects.map((project) => (

@@ -5,11 +5,6 @@ import Experience from "./components/Experience";
 import ChatWidget from "./components/ChatWidget";
 import Projects from "./components/Projects";
 function Home() {
-  const ddroom = {
-    image: "/logo2.png",
-    role: "Software Engineering",
-    timeline: "Dec 2024 - Present",
-  };
   // const apubcc
   return (
     <main className="min-h-screen bg-[#151518] ">
@@ -17,7 +12,9 @@ function Home() {
         <Introduction />
         <About />
         <div className="max-w-[825px] mx-auto mt-10 ">
-          <h1 className="text-2xl font-bold ">Work Experience</h1>
+          <h1 className="sm:text-2xl text-xl sm:px-0 px-2 font-bold ">
+            Work Experience
+          </h1>
 
           <Experience
             image="/apubcc.jpg"
@@ -28,7 +25,7 @@ function Home() {
           <Experience
             image="/logo2.png"
             role="Software Engineering"
-            timeline="Dec 2024 - Present"
+            timeline="Dec 2024 - June 2025"
             company="DDRoom"
           />
         </div>

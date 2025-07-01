@@ -3,7 +3,7 @@ import React from "react";
 
 function Experience({ image, role, timeline, company }) {
   return (
-    <div className="">
+    <div className="p-2">
       <div className="flex justify-between mt-4 items-center">
         <div className="flex gap-4 mt-4">
           <Image
