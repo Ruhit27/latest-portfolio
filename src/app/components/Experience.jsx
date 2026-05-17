@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function Experience({ image, role, timeline, company }) {
+function Experience({ image, role, timeline, company, description }) {
   return (
     <div className="p-2">
       <div className="flex justify-between mt-4 items-center">
@@ -23,6 +23,11 @@ function Experience({ image, role, timeline, company }) {
           <p className="text-[#BCBCBD] font-semibold text-sm">{timeline}</p>
         </div>
       </div>
+      {description && (
+        <p className="text-sm mt-3 text-[#BCBCBD] leading-relaxed pl-1">
+          {description}
+        </p>
+      )}
     </div>
   );
 }
